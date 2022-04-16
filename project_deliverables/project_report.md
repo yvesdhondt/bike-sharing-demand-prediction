@@ -46,6 +46,12 @@ The model performed a little bit better according to the AutoGluon output. The t
 RMSE of -0.127174 while the un-tuned model had an RMSE of -0.129765. However, according to the Kaggle score, the
 un-tuned model performed a little bit better with an RMSLE of 0.38512 vs an RSMLE of 0.39251 for the tuned model.
 
+The increased time & removal of the models that did not perform well from the AutoGluon training allowed to search longer
+for a better model as well as dedicating more time to those models that did work.
+
+Next to this, enabling the `auto_stack` meant that bagged models were investigated an this can clearly be seen in the
+summary of the tuned model as almost all of the top models are in fact bagged models.
+
 Overall, the performance gains of the model are debatable at best and as good as negligible.
 
 ### If you were given more time with this dataset, where do you think you would spend more time?
