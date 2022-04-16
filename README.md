@@ -1,1 +1,1 @@
-## You will find everything you need in the /Project folder
+# The final submission for the project can be found in the /project_deliverables folder
